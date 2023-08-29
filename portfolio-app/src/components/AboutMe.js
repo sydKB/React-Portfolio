@@ -1,11 +1,10 @@
 import React from 'react';
+import '../pages.css'
 
 export default function AboutMe() {
   return (
-    <section>
-      <div>
-        <p>all about me</p>
-      </div>
+    <section className='page'>
+      <p>my intro goes here</p>
     </section>
   );
 };
