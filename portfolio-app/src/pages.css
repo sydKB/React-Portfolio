@@ -46,15 +46,11 @@ nav a {
 }
 .me {
     padding: 2rem;
+    font-size: 20px;
 }
 
 .me h1, .me p {
-    padding-left: 25px;
-}
-
-.bio {
-    padding: 2rem;
-    width: 250px;
+    padding-left: 10px;
 }
 
 .me-img {
@@ -62,6 +58,12 @@ nav a {
     height: 200px;
     border-radius: 50%;
     margin-right: 1rem;
+}
+
+.bio {
+    padding: 2rem;
+    width: 40vw;
+    margin-top: 30px;
 }
 
 
@@ -129,18 +131,27 @@ nav a {
 
 
 /*----- resume css -----*/
+.resume {
+    padding: 30px 60px;
+    /* text-align: left; */
+    
+    border-radius: 10px;
+    background-color: ivory;
+    width: 50vw;
+}
+
 .resume h1{
     font-size: 30px;
 }
 
 .resume p {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     margin-left: 5px;
 }
 
-.resume ul {
+/* .resume ul {
     padding-left: 40px;
-}
+} */
 
 .resume li {
     font-size: 20px;
