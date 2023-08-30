@@ -53,29 +53,39 @@ nav a {
 
 .portfolio h2 {
     color: black;
-    font-size: 50px;
+    font-size: 3rem;
     padding-top: 40px;
-    margin-top: 0px;
+    margin: 0px;
 }
 
-.project {
+.projects {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding-bottom: 40px;
+    padding: 10px 0;
+
 }
 
-.project a {
+.project-title h2{
+    text-align: center;
+    text-decoration: none;
+    color: yellow;
+    font-size: 2rem;
+    padding: 0px;
+}
+
+.projects a {
     position: relative;
     display: inline-block;
     overflow: hidden;
+    margin-bottom: 2rem;
 }
 
-.project img {
+.projects img {
     width: 600px;
     height: 400px;
 }
 
-.proj-description{
+.project-description{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -87,11 +97,11 @@ nav a {
     transition: filter 0.5s; 
 }
 
-.project a:hover .proj-description {
+.projects a:hover .project-description {
     opacity: 1; /*shows project title upon hover*/
 }
 
-.project a:hover img{
+.projects a:hover img{
     filter: blur(5px); /*blurs project image*/
 }
 
