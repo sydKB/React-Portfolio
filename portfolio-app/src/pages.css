@@ -50,6 +50,7 @@ nav a {
     border-radius: 10px;
     background-color: ivory;
     width: 50vw;
+    margin-top: 30px;
 }
 .me {
     padding: 2rem;
@@ -71,6 +72,17 @@ nav a {
     padding: 2rem;
     width: 40vw;
     margin-top: 30px;
+}
+
+@media screen and (max-width: 1000px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    .bio {
+        padding-top: 0px;
+        margin-top: 0px;
+    }
 }
 /*---------------------------------------------------------------------------*/
 
@@ -101,7 +113,7 @@ nav a {
 .project-title h2{
     text-align: center;
     text-decoration: none;
-    color: yellow;
+    color: black;
     font-size: 2rem;
     padding: 0px;
 }
@@ -137,15 +149,68 @@ nav a {
 .projects a:hover img{
     filter: blur(5px); /*blurs project image*/
 }
+
+@media screen and (max-width: 1200px) {
+    .projects {
+        display: flex;
+        flex-direction: column;
+    }
+}
 /*---------------------------------------------------------------------------*/
 
 
 
 
 
-/*----- resume css -----*//*--------------------------------------------------*/
+/*----- contact css -----*//*--------------------------------------------------*/
 .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    height: auto;
+    min-height: 85vh;
+    
+    border-radius: 10px;
+    background-color: ivory;
+    width: 50vw;
+    margin-top: 30px;
+    padding-left: 30px;
+}
 
+
+.contact-header {
+    text-align: left;
+    font-size: 30px;
+}
+
+.form {
+    width: 20vw;
+}
+
+label {
+    display: block;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+input,
+textarea {
+    width: 200%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+button {
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+button:hover {
+    background-color: white;
+    color: cornflowerblue;
 }
 /*---------------------------------------------------------------------------*/
 
