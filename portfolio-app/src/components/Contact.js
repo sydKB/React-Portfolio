@@ -23,8 +23,6 @@ export default function Contact() {
     }));
   };
 
-
-
   return ( 
     <section className='page'>
       <div className='contact'>
@@ -43,7 +41,7 @@ export default function Contact() {
               <textarea rows='5' name='message' value={form.message} onChange={handleChange} onBlur={handleblur}></textarea>
               {touchedFields && !form.message && ( <p className='error'>All fields must be filled!</p>)}
             </div>
-          <button type='submit'>Send</button>
+            <button type='submit'>Send</button>
         </form>
       </div>
     </section>
