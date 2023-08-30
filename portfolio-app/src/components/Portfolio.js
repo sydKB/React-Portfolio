@@ -27,7 +27,7 @@ export default function Portfolio() {
                         <a href="https://github.com/sydKB/Code-Quiz" target="_blank">
                             <img src= {Quiz} alt="Code-Quiz" />
                             <div className='project-description'>
-                                <p>quiiiiizzzz</p>
+                                <p>A timed quiz that tracks scores based on correct answers and time elapsed.</p>
                             </div>
                         </a>
                     </div>
@@ -36,23 +36,23 @@ export default function Portfolio() {
                         <a href="https://github.com/sydKB/Workday-Scheduler" target="_blank">
                             <img src= {Scheduler} alt="Workday-Scheduler" />
                             <div className='project-description'>
-                                <p>y a  know</p>
+                                <p>A workday scheduler with save buttons for each hour block. Colors change based on current time.</p>
                             </div>
                         </a>
                     </div>
                     <div className='project-image'>
                         <div className='project-title'><h2>To Do List</h2></div>
                         <a href="https://github.com/sydKB/To-Do-List" target="_blank">
-                            <img src= {ToDo} alt="To-Do List Project" />
+                            <img src= {ToDo} alt="To-Do-List" />
                             <div className='project-description'>
-                                <p>To-Do List that stores items in local storage.</p>
+                                <p>To-Do List that creates, stores, and deletes list items in database.</p>
                             </div>
                         </a>
                     </div>
                     <div className='image'>
                         <div className='project-title'><h2>Social Network API</h2></div>
                         <a href="https://github.com/sydKB/Social-Network-API" target="_blank">
-                            <img src= {Social} alt="Social Network API" />
+                            <img src= {Social} alt="Social-Network-API" />
                             <div className='project-description'>
                                 <p>Social Network API that uses MongoDB.</p>
                             </div>
@@ -61,27 +61,27 @@ export default function Portfolio() {
                     <div className='image'>
                         <div className='project-title'><h2>Employee Finder</h2></div>
                         <a href="https://github.com/sydKB/Employee-Finder" target="_blank">
-                            <img src= {EmployeeFinder} alt="To-Do List Project" />
+                            <img src= {EmployeeFinder} alt="Employee-Finder" />
                             <div className='project-description'>
-                                <p>Finding employee.</p>
+                                <p>Command-line application that views and modifies MySQL database based on Inquirer responses.</p>
                             </div>
                         </a>
                     </div>
                     <div className='project-image'>
                         <div className='project-title'><h2>Password Generator</h2></div>
                         <a href="https://github.com/sydKB/Password-Generator" target="_blank">
-                            <img src= {Password} alt="Password Generator" />
+                            <img src= {Password} alt="Password-Generator" />
                             <div className='project-description'>
-                                <p>To-Do List that stores items in local storage.</p>
+                                <p>Random password generator.</p>
                             </div>
                         </a>
                     </div>
                     <div className='image'>
                         <div className='project-title'><h2>SVG Logo Maker</h2></div>
                         <a href="https://github.com/sydKB/Logo-Maker" target="_blank">
-                            <img src= {LogoMaker} alt="SVG Logo Maker" />
+                            <img src= {LogoMaker} alt="SVG-Logo-Maker" />
                             <div className='project-description'>
-                                <p>Customizing logo in terminal.</p>
+                                <p>Interactive application that generates SVG logo based on selected Inquirer choices.</p>
                             </div>
                         </a>
                     </div>
@@ -90,7 +90,7 @@ export default function Portfolio() {
                         <a href="https://github.com/sydKB/E-Commerce_Back_End" target="_blank">
                             <img src= {Ecommerce} alt="E-Commerce-ORM" />
                             <div className='project-description'>
-                                <p>Object Relational mapping background.</p>
+                                <p>Object Relational Mapping Application with MySQL.</p>
                             </div>
                         </a>
                     </div>
