@@ -1,7 +1,7 @@
 # 20 React: React Portfolio
 
 ## Deployed Application
-[Click here to go to deployed site](xx)
+[Click here to go to deployed site](https://react-portfolio-sydkb-3d1293c104b1.herokuapp.com/#/portfolio)
 ![A screenshot of the portfolio page + headers](./Portfolio-Final.png)
 
 
