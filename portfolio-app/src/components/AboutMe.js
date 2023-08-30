@@ -9,6 +9,7 @@ export default function AboutMe() {
         <div className='me'>
           <h1>Sydney Birza</h1>
           <p>Full-Stack Developer</p>
+          <a href="mailto:sydneykb11@icloud.com" target="_blank"><p className='email'>sydneykb11@icloud.com</p></a>
           <img src= {Me} alt="To-Do List Project" className='me-img'/>
         </div>
         <div className='bio'>
