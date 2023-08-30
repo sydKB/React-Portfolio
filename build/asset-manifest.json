@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.129f5307.css",
+    "main.js": "/static/js/main.8738e277.js",
+    "static/media/Me.png": "/static/media/Me.2d5d2541cea8d0600050.png",
+    "static/media/Social-API.png": "/static/media/Social-API.f699a631cc76c7e3034c.png",
+    "static/media/Employee-Finder.png": "/static/media/Employee-Finder.7fa27cb11b45c8bda6a9.png",
+    "static/media/Ecommerce.png": "/static/media/Ecommerce.07291e728d62fd2ec4fa.png",
+    "static/media/Scheduler.png": "/static/media/Scheduler.334dfa7e9435ef74c361.png",
+    "static/media/Logo-Maker.png": "/static/media/Logo-Maker.fa4ec39adeb197972019.png",
+    "static/media/ToDo.png": "/static/media/ToDo.b202ec0031f1c42bd845.png",
+    "static/media/Password.png": "/static/media/Password.8f0a4c6425bc28315658.png",
+    "static/media/Quiz.png": "/static/media/Quiz.5e0e9d6bc1708484e032.png",
+    "index.html": "/index.html",
+    "main.129f5307.css.map": "/static/css/main.129f5307.css.map",
+    "main.8738e277.js.map": "/static/js/main.8738e277.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.129f5307.css",
+    "static/js/main.8738e277.js"
+  ]
+}
