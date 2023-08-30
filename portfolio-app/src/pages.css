@@ -1,3 +1,4 @@
+/*---------------------------------------------------------------------------*/
 .page {
     display: flex;
     justify-content: center;
@@ -6,10 +7,13 @@
     background-color: lightblue;
     padding: 50px 0;
 }
+/*---------------------------------------------------------------------------*/
 
 
 
-/*----- header css -----*/
+
+
+/*----- header css -----*//*--------------------------------------------------*/
 .header {
     display: flex;
     justify-content: space-between;
@@ -34,10 +38,13 @@ nav a {
     text-decoration: none;
     color: black;
 }
+/*---------------------------------------------------------------------------*/
 
 
 
-/*----- about me css -----*/
+
+
+/*----- about css -----*//*--------------------------------------------------*/
 .about {
     display: flex;
     border-radius: 10px;
@@ -65,10 +72,13 @@ nav a {
     width: 40vw;
     margin-top: 30px;
 }
+/*---------------------------------------------------------------------------*/
 
 
 
-/*----- portlfolio css -----*/
+
+
+/*----- portlfolio css -----*//*--------------------------------------------------*/
 .portfolio {
     text-align: center;
     background-color: lightblue;
@@ -127,14 +137,25 @@ nav a {
 .projects a:hover img{
     filter: blur(5px); /*blurs project image*/
 }
+/*---------------------------------------------------------------------------*/
 
 
 
-/*----- resume css -----*/
+
+
+/*----- resume css -----*//*--------------------------------------------------*/
+.contact {
+
+}
+/*---------------------------------------------------------------------------*/
+
+
+
+
+
+/*----- resume css -----*//*--------------------------------------------------*/
 .resume {
     padding: 30px 60px;
-    /* text-align: left; */
-    
     border-radius: 10px;
     background-color: ivory;
     width: 50vw;
@@ -149,18 +170,17 @@ nav a {
     margin-left: 5px;
 }
 
-/* .resume ul {
-    padding-left: 40px;
-} */
-
 .resume li {
     font-size: 20px;
     margin: 15px 0;
 }
+/*---------------------------------------------------------------------------*/
 
 
 
-/*----- footer css -----*/
+
+
+/*----- footer css -----*//*--------------------------------------------------*/
 .footer {
     display: flex;
     justify-content: center;
@@ -169,3 +189,4 @@ nav a {
     padding: 1rem;
     background: linear-gradient(to bottom, lightskyblue, cornflowerblue);    
 }
+/*---------------------------------------------------------------------------*/
