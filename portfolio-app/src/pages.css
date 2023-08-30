@@ -1,20 +1,13 @@
 .page {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
-    height: 100vh;
-    padding: 20px;
+    min-height: 70vh;
     background-color: lightblue;
-    padding-left: 200px;
+    padding: 50px 0;
+}
 
-    /* background-size: cover;
-    background-position: top;
-    background-attachment: fixed;
-    background-repeat: no-repeat; */
-}
-.bg {
-    background-color: lightblue;
-}
+
 
 /*----- header css -----*/
 .header {
@@ -24,6 +17,7 @@
     padding: 3rem;
     background-color: cornflowerblue;
     color: black;
+    background: linear-gradient(to top, lightskyblue, cornflowerblue); 
 }
 
 .my-name {
@@ -42,6 +36,33 @@ nav a {
 }
 
 
+
+/*----- about me css -----*/
+.about {
+    display: flex;
+    border-radius: 10px;
+    background-color: ivory;
+    width: 50vw;
+}
+.me {
+    padding: 2rem;
+}
+
+.me h1, .me p {
+    padding-left: 25px;
+}
+
+.bio {
+    padding: 2rem;
+    width: 250px;
+}
+
+.me-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
 
 
 
@@ -107,7 +128,6 @@ nav a {
 
 
 
-
 /*----- resume css -----*/
 .resume h1{
     font-size: 30px;
@@ -128,12 +148,13 @@ nav a {
 }
 
 
+
 /*----- footer css -----*/
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 80px;
-    background-color: cornflowerblue;
     padding: 1rem;
+    background: linear-gradient(to bottom, lightskyblue, cornflowerblue);    
 }
