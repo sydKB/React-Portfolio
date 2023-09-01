@@ -39,13 +39,16 @@ nav a {
     color: black;
 }
 
+nav a:hover {
+    color: lightblue;
+
 @media (max-width: 800px) {
   .header {
       flex-direction: column;
   }
 }
 @media (max-width: 528px) {
-  .nav {
+  nav {
       flex-direction: column;
   }
 }
