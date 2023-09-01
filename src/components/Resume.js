@@ -1,13 +1,13 @@
 import React from 'react';
 import '../pages.css'
-import '../assets/ToDo.png'
+import '../assets/Resume.pdf'
 
 export default function Resume() {
   return (
     <section className='page'>
       <div className='resume'>
         <h1>Sydney Birza</h1>
-        <a href="../assets/ToDo.png" download="ToDo.png">Click here to download</a>
+        <a href="../assets/Resume.pdf" download="Resume.pdf">Click here to download</a>
         <h2>Front-end Skills</h2>
         <ul>
           <li>HTML</li>
@@ -25,7 +25,7 @@ export default function Resume() {
           <li>MySQL, Sequelize</li>
           <li>MongoDB, Mongoose</li>
           <li>REST</li>
-          <li>GraphQl</li>
+          <li>GraphQL</li>
 
         </ul>
       </div>
